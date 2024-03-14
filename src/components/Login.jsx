@@ -24,7 +24,7 @@ const Login = ({ history }) => {
             // Redireccionar al usuario a la página de inicio
             history.push('/home');
         } else {
-            // Mostrar un mensaje de error o tomar alguna otra acción
+            // Mostrar un mensaje de error 
             alert('Credenciales incorrectas. Por favor, inténtalo de nuevo.');
         }
     };
